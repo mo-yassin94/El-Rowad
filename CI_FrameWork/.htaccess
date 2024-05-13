@@ -1,0 +1,27 @@
+#old php Handler
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit> 
+
+<FilesMatch "^\.env">
+    Order allow,deny
+    Deny from all
+ </FilesMatch>
+ 
+ <IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+   
+ 

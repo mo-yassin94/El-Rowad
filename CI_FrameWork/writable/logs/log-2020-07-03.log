@@ -1,0 +1,20 @@
+CRITICAL - 2020-07-03 20:01:00 --> Undefined variable: section
+#0 /home/elrowade/CI_FrameWork/app/Views/projects/show.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/elrowade/...', 37, Array)
+#1 /home/elrowade/CI_FrameWork/system/View/View.php(246): include('/home/elrowade/...')
+#2 /home/elrowade/CI_FrameWork/system/Common.php(1087): CodeIgniter\View\View->render('projects/show', Array, true)
+#3 /home/elrowade/CI_FrameWork/app/Controllers/Projects.php(110): view('projects/show', Array)
+#4 /home/elrowade/CI_FrameWork/system/CodeIgniter.php(914): App\Controllers\Projects->show('bg-5.png', '')
+#5 /home/elrowade/CI_FrameWork/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projects))
+#6 /home/elrowade/CI_FrameWork/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/elrowade/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-07-03 20:02:32 --> Undefined variable: section
+#0 /home/elrowade/CI_FrameWork/app/Views/projects/show.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/elrowade/...', 37, Array)
+#1 /home/elrowade/CI_FrameWork/system/View/View.php(246): include('/home/elrowade/...')
+#2 /home/elrowade/CI_FrameWork/system/Common.php(1087): CodeIgniter\View\View->render('projects/show', Array, true)
+#3 /home/elrowade/CI_FrameWork/app/Controllers/Projects.php(110): view('projects/show', Array)
+#4 /home/elrowade/CI_FrameWork/system/CodeIgniter.php(914): App\Controllers\Projects->show('bg-5.png', '')
+#5 /home/elrowade/CI_FrameWork/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projects))
+#6 /home/elrowade/CI_FrameWork/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/elrowade/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
